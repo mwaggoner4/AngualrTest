@@ -1,0 +1,45 @@
+name: Build and deploy Angular app to an Azure Web App
+
+env:
+  AZURE_WEBAPP_NAME: PhoenixTheatre    # set this to the name of your Azure Web App
+  AZURE_WEBAPP_PACKAGE_PATH: './PhoenixTheatreAngular/dist/phoenix-theatre-angular'      # set this to the path to your web app project, defaults to the repository root
+  NODE_VERSION: '16.13.x'
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Use Node.js ${{ env.NODE_VERSION }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+            
+      - name: Install Dependencies
+        if: steps.cache-nodemodules.outputs.cache-hit != 'true'
+        run: |
+          cd ./PhoenixTheatreAngular
+          npm install
+            
+      - name: Build Angular
+        run: |
+          cd ./PhoenixTheatreAngular
+          npm run build --if-present
+
+      - name: Deploy to Azure Web App
+        id: deploy-to-webapp
+        uses: azure/webapps-deploy@v2
+        with:
+          app-name: ${{ env.AZURE_WEBAPP_NAME }}
+          publish-profile: ${{ secrets.AZURE_WEBAPP_APP_PUBLISH_PROFILE }}
+          package: ${{ env.AZURE_WEBAPP_PACKAGE_PATH }}

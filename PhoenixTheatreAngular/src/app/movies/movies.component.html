@@ -1,0 +1,30 @@
+<mat-tab-group>
+  <mat-tab  *ngFor="let date of weekdays" label="{{month}}-{{date}}-{{year}}">
+    <mat-card class="movie-card" *ngFor="let movie of movies">
+      <mat-card-title-group>
+        <mat-card-title>
+          <nav>
+            <a routerLink="/movie/{{movie.filmId}}">{{movie.filmName}}</a>
+          </nav>
+        </mat-card-title>
+        <mat-card-subtitle>
+          {{movie.filmRating}}, {{movie.genre}} <br> {{movie.filmDuration}}
+        </mat-card-subtitle>
+        <nav>
+          <a routerLink="/movie/{{movie.filmId}}"><img mat-card-lg-image src={{movie.imageUrl}}></a>
+        </nav>
+      </mat-card-title-group>
+      <mat-card-content>
+        <mat-card-actions>
+          <span *ngFor="let showtime of showtimes">
+            <span *ngIf="showtime.filmId==movie.filmId && date==showtime.showDate.getDate()">
+              <a routerLink="/showtime/{{showtime.filmShowingsId}}">
+                <button class="movietime" mat-raised-button><div>{{showtime.showTime}}</div></button>
+              </a>
+            </span>
+          </span>
+        </mat-card-actions>
+      </mat-card-content>
+    </mat-card>
+  </mat-tab>
+</mat-tab-group>

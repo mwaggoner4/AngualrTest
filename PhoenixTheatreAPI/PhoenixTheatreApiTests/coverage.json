@@ -1,0 +1,618 @@
+{
+  "PhoenixTheatreAPI.dll": {
+    "C:\\Users\\melin\\OneDrive\\Desktop\\RevGit\\Team-A-P2\\Team_A_P2\\PhoenixTheatreAPI\\PhoenixTheatreAPI\\Program.cs": {
+      "Program": {
+        "System.Void Program::<Main>$(System.String[])": {
+          "Lines": {
+            "4": 0,
+            "6": 0,
+            "8": 0,
+            "12": 0,
+            "14": 0,
+            "15": 0,
+            "17": 0,
+            "19": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "28": 0,
+            "30": 0,
+            "32": 0,
+            "34": 0
+          },
+          "Branches": [
+            {
+              "Line": 22,
+              "Offset": 108,
+              "EndOffset": 110,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 22,
+              "Offset": 108,
+              "EndOffset": 128,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\melin\\OneDrive\\Desktop\\RevGit\\Team-A-P2\\Team_A_P2\\PhoenixTheatreAPI\\PhoenixTheatreAPI\\WeatherForecast.cs": {
+      "PhoenixTheatreAPI.WeatherForecast": {
+        "System.DateTime PhoenixTheatreAPI.WeatherForecast::get_Date()": {
+          "Lines": {
+            "5": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 PhoenixTheatreAPI.WeatherForecast::get_TemperatureC()": {
+          "Lines": {
+            "7": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 PhoenixTheatreAPI.WeatherForecast::get_TemperatureF()": {
+          "Lines": {
+            "9": 0
+          },
+          "Branches": []
+        },
+        "System.String PhoenixTheatreAPI.WeatherForecast::get_Summary()": {
+          "Lines": {
+            "11": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\melin\\OneDrive\\Desktop\\RevGit\\Team-A-P2\\Team_A_P2\\PhoenixTheatreAPI\\PhoenixTheatreAPI\\Services\\PhoenixTheatreService.cs": {
+      "PhoenixTheatreAPI.Services.PhoenixTheatreService": {
+        "PhoenixTheatreAPI.Dtos.FilmShowings PhoenixTheatreAPI.Services.PhoenixTheatreService::GetAll()": {
+          "Lines": {
+            "16": 0,
+            "17": 0
+          },
+          "Branches": []
+        },
+        "PhoenixTheatreAPI.Dtos.CustomerOrder PhoenixTheatreAPI.Services.PhoenixTheatreService::GetOrderById(System.Guid)": {
+          "Lines": {
+            "21": 0,
+            "22": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "31": 0,
+            "32": 0
+          },
+          "Branches": []
+        },
+        "PhoenixTheatreAPI.Dtos.Customer PhoenixTheatreAPI.Services.PhoenixTheatreService::GetCustomerByName(System.String,System.String)": {
+          "Lines": {
+            "35": 0,
+            "36": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "45": 0,
+            "46": 0
+          },
+          "Branches": []
+        },
+        "PhoenixTheatreAPI.Dtos.Employee PhoenixTheatreAPI.Services.PhoenixTheatreService::GetEmployeeByName(System.String,System.String)": {
+          "Lines": {
+            "49": 0,
+            "50": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "59": 0,
+            "60": 0
+          },
+          "Branches": []
+        },
+        "PhoenixTheatreAPI.Dtos.Customer PhoenixTheatreAPI.Services.PhoenixTheatreService::CreateCustomer(PhoenixTheatreAPI.Dtos.Customer)": {
+          "Lines": {
+            "63": 0,
+            "64": 0
+          },
+          "Branches": []
+        },
+        "PhoenixTheatreAPI.Dtos.Employee PhoenixTheatreAPI.Services.PhoenixTheatreService::CreateEmployee(PhoenixTheatreAPI.Dtos.Employee)": {
+          "Lines": {
+            "68": 0,
+            "69": 0
+          },
+          "Branches": []
+        },
+        "PhoenixTheatreAPI.Dtos.CustomerOrder PhoenixTheatreAPI.Services.PhoenixTheatreService::CreateOrder(PhoenixTheatreAPI.Dtos.CustomerOrder)": {
+          "Lines": {
+            "73": 0,
+            "74": 0
+          },
+          "Branches": []
+        },
+        "System.Void PhoenixTheatreAPI.Services.PhoenixTheatreService::.ctor()": {
+          "Lines": {
+            "9": 6
+          },
+          "Branches": []
+        },
+        "System.Void PhoenixTheatreAPI.Services.PhoenixTheatreService::.ctor(PhoenixTheatreAPI.Data.PhoenixTheatreContext)": {
+          "Lines": {
+            "10": 0,
+            "11": 0,
+            "12": 0,
+            "13": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\melin\\OneDrive\\Desktop\\RevGit\\Team-A-P2\\Team_A_P2\\PhoenixTheatreAPI\\PhoenixTheatreAPI\\Dtos\\Customer.cs": {
+      "PhoenixTheatreAPI.Dtos.Customer": {
+        "System.Guid PhoenixTheatreAPI.Dtos.Customer::get_CustomerId()": {
+          "Lines": {
+            "5": 3
+          },
+          "Branches": []
+        },
+        "System.String PhoenixTheatreAPI.Dtos.Customer::get_FirstName()": {
+          "Lines": {
+            "6": 3
+          },
+          "Branches": []
+        },
+        "System.String PhoenixTheatreAPI.Dtos.Customer::get_LastName()": {
+          "Lines": {
+            "7": 3
+          },
+          "Branches": []
+        },
+        "System.String PhoenixTheatreAPI.Dtos.Customer::get_Username()": {
+          "Lines": {
+            "8": 3
+          },
+          "Branches": []
+        },
+        "System.String PhoenixTheatreAPI.Dtos.Customer::get_UserPassword()": {
+          "Lines": {
+            "9": 3
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\melin\\OneDrive\\Desktop\\RevGit\\Team-A-P2\\Team_A_P2\\PhoenixTheatreAPI\\PhoenixTheatreAPI\\Dtos\\CustomerOrder.cs": {
+      "PhoenixTheatreAPI.Dtos.CustomerOrder": {
+        "System.Guid PhoenixTheatreAPI.Dtos.CustomerOrder::get_OrderId()": {
+          "Lines": {
+            "8": 0
+          },
+          "Branches": []
+        },
+        "System.Guid PhoenixTheatreAPI.Dtos.CustomerOrder::get_CustomerId()": {
+          "Lines": {
+            "9": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 PhoenixTheatreAPI.Dtos.CustomerOrder::get_TheatreId()": {
+          "Lines": {
+            "10": 0
+          },
+          "Branches": []
+        },
+        "System.Decimal PhoenixTheatreAPI.Dtos.CustomerOrder::get_TotalPrice()": {
+          "Lines": {
+            "11": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\melin\\OneDrive\\Desktop\\RevGit\\Team-A-P2\\Team_A_P2\\PhoenixTheatreAPI\\PhoenixTheatreAPI\\Dtos\\Employee.cs": {
+      "PhoenixTheatreAPI.Dtos.Employee": {
+        "System.Guid PhoenixTheatreAPI.Dtos.Employee::get_EmployeeId()": {
+          "Lines": {
+            "5": 3
+          },
+          "Branches": []
+        },
+        "System.String PhoenixTheatreAPI.Dtos.Employee::get_FirstName()": {
+          "Lines": {
+            "6": 3
+          },
+          "Branches": []
+        },
+        "System.String PhoenixTheatreAPI.Dtos.Employee::get_LastName()": {
+          "Lines": {
+            "7": 3
+          },
+          "Branches": []
+        },
+        "System.String PhoenixTheatreAPI.Dtos.Employee::get_Username()": {
+          "Lines": {
+            "8": 3
+          },
+          "Branches": []
+        },
+        "System.String PhoenixTheatreAPI.Dtos.Employee::get_UserPassword()": {
+          "Lines": {
+            "9": 3
+          },
+          "Branches": []
+        },
+        "System.String PhoenixTheatreAPI.Dtos.Employee::get_IsManager()": {
+          "Lines": {
+            "10": 3
+          },
+          "Branches": []
+        },
+        "System.Int32 PhoenixTheatreAPI.Dtos.Employee::get_TheatreId()": {
+          "Lines": {
+            "11": 3
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\melin\\OneDrive\\Desktop\\RevGit\\Team-A-P2\\Team_A_P2\\PhoenixTheatreAPI\\PhoenixTheatreAPI\\Dtos\\FilmShowings.cs": {
+      "PhoenixTheatreAPI.Dtos.FilmShowings": {
+        "System.Int32 PhoenixTheatreAPI.Dtos.FilmShowings::get_FilmShowingsId()": {
+          "Lines": {
+            "8": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 PhoenixTheatreAPI.Dtos.FilmShowings::get_TheatreId()": {
+          "Lines": {
+            "9": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 PhoenixTheatreAPI.Dtos.FilmShowings::get_FilmId()": {
+          "Lines": {
+            "10": 0
+          },
+          "Branches": []
+        },
+        "System.DateTime PhoenixTheatreAPI.Dtos.FilmShowings::get_ShowDate()": {
+          "Lines": {
+            "11": 0
+          },
+          "Branches": []
+        },
+        "System.DateTime PhoenixTheatreAPI.Dtos.FilmShowings::get_ShowTime()": {
+          "Lines": {
+            "12": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 PhoenixTheatreAPI.Dtos.FilmShowings::get_TicketsAvailable()": {
+          "Lines": {
+            "13": 0
+          },
+          "Branches": []
+        },
+        "PhoenixTheatreAPI.Dtos.TheatreFilms PhoenixTheatreAPI.Dtos.FilmShowings::get_TheatreFilms()": {
+          "Lines": {
+            "14": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\melin\\OneDrive\\Desktop\\RevGit\\Team-A-P2\\Team_A_P2\\PhoenixTheatreAPI\\PhoenixTheatreAPI\\Dtos\\InvoiceLineItem.cs": {
+      "PhoenixTheatreAPI.Dtos.InvoiceLineItem": {
+        "System.Int32 PhoenixTheatreAPI.Dtos.InvoiceLineItem::get_InvoiceId()": {
+          "Lines": {
+            "5": 0
+          },
+          "Branches": []
+        },
+        "PhoenixTheatreAPI.Dtos.Tickets PhoenixTheatreAPI.Dtos.InvoiceLineItem::get_Tickets()": {
+          "Lines": {
+            "6": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 PhoenixTheatreAPI.Dtos.InvoiceLineItem::get_Quantity()": {
+          "Lines": {
+            "7": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\melin\\OneDrive\\Desktop\\RevGit\\Team-A-P2\\Team_A_P2\\PhoenixTheatreAPI\\PhoenixTheatreAPI\\Dtos\\Theatre.cs": {
+      "PhoenixTheatreAPI.Dtos.Theatre": {
+        "System.Int32 PhoenixTheatreAPI.Dtos.Theatre::get_TheatreId()": {
+          "Lines": {
+            "7": 0
+          },
+          "Branches": []
+        },
+        "System.String PhoenixTheatreAPI.Dtos.Theatre::get_TheatreLocation()": {
+          "Lines": {
+            "8": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\melin\\OneDrive\\Desktop\\RevGit\\Team-A-P2\\Team_A_P2\\PhoenixTheatreAPI\\PhoenixTheatreAPI\\Dtos\\TheatreFilms.cs": {
+      "PhoenixTheatreAPI.Dtos.TheatreFilms": {
+        "System.Int32 PhoenixTheatreAPI.Dtos.TheatreFilms::get_FilmId()": {
+          "Lines": {
+            "8": 0
+          },
+          "Branches": []
+        },
+        "System.String PhoenixTheatreAPI.Dtos.TheatreFilms::get_FilmName()": {
+          "Lines": {
+            "9": 0
+          },
+          "Branches": []
+        },
+        "System.String PhoenixTheatreAPI.Dtos.TheatreFilms::get_FilmRating()": {
+          "Lines": {
+            "10": 0
+          },
+          "Branches": []
+        },
+        "System.String PhoenixTheatreAPI.Dtos.TheatreFilms::get_Genre()": {
+          "Lines": {
+            "11": 0
+          },
+          "Branches": []
+        },
+        "System.String PhoenixTheatreAPI.Dtos.TheatreFilms::get_FilmDescription()": {
+          "Lines": {
+            "12": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 PhoenixTheatreAPI.Dtos.TheatreFilms::get_FilmDuration()": {
+          "Lines": {
+            "13": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\melin\\OneDrive\\Desktop\\RevGit\\Team-A-P2\\Team_A_P2\\PhoenixTheatreAPI\\PhoenixTheatreAPI\\Dtos\\Tickets.cs": {
+      "PhoenixTheatreAPI.Dtos.Tickets": {
+        "System.String PhoenixTheatreAPI.Dtos.Tickets::get_TicketType()": {
+          "Lines": {
+            "5": 0
+          },
+          "Branches": []
+        },
+        "System.Decimal PhoenixTheatreAPI.Dtos.Tickets::get_TicketPrice()": {
+          "Lines": {
+            "6": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\melin\\OneDrive\\Desktop\\RevGit\\Team-A-P2\\Team_A_P2\\PhoenixTheatreAPI\\PhoenixTheatreAPI\\Data\\PhoenixTheatreContext.cs": {
+      "PhoenixTheatreAPI.Data.PhoenixTheatreContext": {
+        "Microsoft.EntityFrameworkCore.DbSet`1<PhoenixTheatreAPI.Dtos.CustomerOrder> PhoenixTheatreAPI.Data.PhoenixTheatreContext::get_Orders()": {
+          "Lines": {
+            "16": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.EntityFrameworkCore.DbSet`1<PhoenixTheatreAPI.Dtos.Customer> PhoenixTheatreAPI.Data.PhoenixTheatreContext::get_Customer()": {
+          "Lines": {
+            "17": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.EntityFrameworkCore.DbSet`1<PhoenixTheatreAPI.Dtos.Employee> PhoenixTheatreAPI.Data.PhoenixTheatreContext::get_Employee()": {
+          "Lines": {
+            "18": 0
+          },
+          "Branches": []
+        },
+        "System.Void PhoenixTheatreAPI.Data.PhoenixTheatreContext::.ctor()": {
+          "Lines": {
+            "8": 0
+          },
+          "Branches": []
+        },
+        "System.Void PhoenixTheatreAPI.Data.PhoenixTheatreContext::.ctor(Microsoft.EntityFrameworkCore.DbContextOptions`1<PhoenixTheatreAPI.Data.PhoenixTheatreContext>)": {
+          "Lines": {
+            "9": 0,
+            "10": 0,
+            "12": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\melin\\OneDrive\\Desktop\\RevGit\\Team-A-P2\\Team_A_P2\\PhoenixTheatreAPI\\PhoenixTheatreAPI\\Controllers\\PhoenixTheatreController.cs": {
+      "PhoenixTheatreAPI.Controllers.PhoenixTheatreController": {
+        "PhoenixTheatreAPI.Dtos.FilmShowings PhoenixTheatreAPI.Controllers.PhoenixTheatreController::GetAll()": {
+          "Lines": {
+            "20": 0,
+            "21": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.AspNetCore.Mvc.ActionResult`1<PhoenixTheatreAPI.Dtos.CustomerOrder> PhoenixTheatreAPI.Controllers.PhoenixTheatreController::GetOrderById(System.Guid)": {
+          "Lines": {
+            "26": 0,
+            "27": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "34": 0,
+            "35": 0,
+            "37": 0
+          },
+          "Branches": [
+            {
+              "Line": 29,
+              "Offset": 20,
+              "EndOffset": 22,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 29,
+              "Offset": 20,
+              "EndOffset": 32,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "Microsoft.AspNetCore.Mvc.ActionResult`1<PhoenixTheatreAPI.Dtos.Customer> PhoenixTheatreAPI.Controllers.PhoenixTheatreController::GetCustomerByName(System.String,System.String)": {
+          "Lines": {
+            "41": 1,
+            "42": 1,
+            "44": 1,
+            "45": 1,
+            "46": 1,
+            "49": 0,
+            "50": 0,
+            "53": 1
+          },
+          "Branches": [
+            {
+              "Line": 44,
+              "Offset": 21,
+              "EndOffset": 23,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 44,
+              "Offset": 21,
+              "EndOffset": 33,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "Microsoft.AspNetCore.Mvc.ActionResult`1<PhoenixTheatreAPI.Dtos.Employee> PhoenixTheatreAPI.Controllers.PhoenixTheatreController::GetEmployeeByName(System.String,System.String)": {
+          "Lines": {
+            "57": 1,
+            "58": 1,
+            "59": 1,
+            "60": 1,
+            "61": 1,
+            "64": 0,
+            "65": 0,
+            "67": 1
+          },
+          "Branches": [
+            {
+              "Line": 59,
+              "Offset": 21,
+              "EndOffset": 23,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 59,
+              "Offset": 21,
+              "EndOffset": 33,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "Microsoft.AspNetCore.Mvc.IActionResult PhoenixTheatreAPI.Controllers.PhoenixTheatreController::CreateCustomer(PhoenixTheatreAPI.Dtos.Customer)": {
+          "Lines": {
+            "71": 0,
+            "72": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.AspNetCore.Mvc.IActionResult PhoenixTheatreAPI.Controllers.PhoenixTheatreController::CreateEmployee(PhoenixTheatreAPI.Dtos.Employee)": {
+          "Lines": {
+            "77": 0,
+            "78": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.AspNetCore.Mvc.IActionResult PhoenixTheatreAPI.Controllers.PhoenixTheatreController::CreateOrder(PhoenixTheatreAPI.Dtos.CustomerOrder)": {
+          "Lines": {
+            "83": 0,
+            "84": 0
+          },
+          "Branches": []
+        },
+        "System.Void PhoenixTheatreAPI.Controllers.PhoenixTheatreController::.ctor(PhoenixTheatreAPI.Services.PhoenixTheatreService)": {
+          "Lines": {
+            "13": 2,
+            "14": 2,
+            "15": 2,
+            "16": 2
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\melin\\OneDrive\\Desktop\\RevGit\\Team-A-P2\\Team_A_P2\\PhoenixTheatreAPI\\PhoenixTheatreAPI\\Controllers\\WeatherForecastController.cs": {
+      "PhoenixTheatreAPI.Controllers.WeatherForecastController": {
+        "System.Collections.Generic.IEnumerable`1<PhoenixTheatreAPI.WeatherForecast> PhoenixTheatreAPI.Controllers.WeatherForecastController::Get()": {
+          "Lines": {
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0
+          },
+          "Branches": []
+        },
+        "System.Void PhoenixTheatreAPI.Controllers.WeatherForecastController::.ctor(Microsoft.Extensions.Logging.ILogger`1<PhoenixTheatreAPI.Controllers.WeatherForecastController>)": {
+          "Lines": {
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0
+          },
+          "Branches": []
+        },
+        "System.Void PhoenixTheatreAPI.Controllers.WeatherForecastController::.cctor()": {
+          "Lines": {
+            "9": 0,
+            "10": 0,
+            "11": 0,
+            "12": 0
+          },
+          "Branches": []
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,39 @@
+<div *ngIf="showTime">
+  <div class="movie-card" *ngFor="let movie of movies">
+    <mat-card *ngIf="movie.filmId === showTime.filmId">
+      <mat-card-title-group>
+        <mat-card-title>{{movie.filmName}}</mat-card-title>
+        <mat-card-subtitle>
+          {{movie.filmRating}}, {{movie.genre}}<br>
+          {{movie.filmDuration}}<br>
+          {{showTime.showDate | date}}<br>
+          {{showTime.showTime}}
+        </mat-card-subtitle>
+        <img mat-card-xl-image src={{movie.imageUrl}}>
+      </mat-card-title-group>
+      <mat-card-content>
+        {{movie.filmDescription}}
+      </mat-card-content>
+    </mat-card>
+  </div>
+  <mat-list *ngFor="let ticket of tickets">
+    <mat-list-item>
+      {{ticket.ticketType}}
+    </mat-list-item>
+    <mat-list-item>
+      {{ticket.ticketPrice | currency}}
+    </mat-list-item>
+    <form #ticketsForm="ngForm">
+      <mat-form-field class="formOrder" appearance="fill">
+        <mat-label>Amount</mat-label>
+        <mat-select class="form-control" id="tickets">
+          <mat-option *ngFor="let amount of amounts" value="{{amount.option}}">{{amount.amount}}</mat-option>
+        </mat-select>
+      </mat-form-field>
+    </form>
+    <mat-divider></mat-divider>
+  </mat-list>
+  <a routerLink="/shoppingcart">
+    <button class="showtimeNext" mat-raised-button>next</button>
+  </a>
+</div>

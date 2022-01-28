@@ -1,0 +1,39 @@
+/* You can add global styles to this file, and also import other style files */
+a
+{
+    cursor: pointer;
+    text-decoration: none;
+}
+
+app-top-bar {
+    width: 98%;
+    height: 68px;
+    background-color: blueviolet;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  app-top-bar h1 {
+    color: white;
+    margin: 0;
+  }
+
+  .login, .button
+  {
+    width: 425px;
+    background-color: blueviolet;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

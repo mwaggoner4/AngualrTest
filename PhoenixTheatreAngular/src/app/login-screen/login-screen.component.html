@@ -1,0 +1,50 @@
+<div id="Screen">
+    <!-- Default Login Screen-->
+    <div *ngIf="showHome">
+        <h2>
+            Welcome to PhoenixTheatre
+        </h2>
+        <h3>
+            <button class="login" (click)="ReturnedCus()">Returned Customer</button><br>
+            <button class="login" (click)="NewCus()">New Customer</button>
+        </h3>
+    </div>
+
+    <!-- New Customer Information -->
+    <div *ngIf="showNew">
+        <h2>
+            New Customer Infomation
+        </h2>
+        <h3>
+            <form [formGroup]="getNewCustomer" (ngSubmit)="onSubmitCustomer">
+                <label for="fname">First Name:</label><br>
+                <input type="text" id="fname" formControlName="fname"><br><br>
+                <label for="lname">Last Name:</label><br>
+                <input type="text" id="lname" formControlName="lname"><br><br>
+                <label for="username">Username:</label><br>
+                <input type="text" id="username" formControlName="username"><br><br>
+                <label for="password">Password:</label><br>
+                <input type="password" id="password" formControlName="password"><br><br>
+                <button class="button" type="submit">Sign Up</button><br>
+            </form>
+            <button class="login" (click)="Back()">Back</button>
+        </h3>
+    </div>
+    
+    <!-- Login -->
+    <div *ngIf="showReturn">
+        <h2>Login</h2>
+        <h3>
+            <form [formGroup]="getUserLogin" (ngSubmit)="onSubmitUser()">
+                <label for="username">Username:</label><br>
+                <input type="text" id="username" name="username" required>
+                <br><br>
+                <label for="password">Password:</label><br>
+                <input type="password" id="pasword" name="password" required><br><br>
+                <button class="button" type="submit">Login</button><br>
+            </form>
+            <button class="login" (click)="Back()">Back</button>
+
+        </h3>
+    </div>
+</div>
